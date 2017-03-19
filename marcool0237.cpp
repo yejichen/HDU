@@ -76,7 +76,7 @@ void work() {
   for (int i = 1; i <= 9; i++) {
     s[x][y] = i + '0';
     if (check(x , y) == true) {
-      OUTPUT();
+//    OUTPUT();
       work();
       
     }
